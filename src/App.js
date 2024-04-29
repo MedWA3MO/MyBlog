@@ -6,7 +6,10 @@ import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 // import { useState } from 'react';
 // import MyApp from './MyApp';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import Team from "./Team.js"
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
 				<Switch>
 					<Route exact path="/">
 						<Home/>
+					</Route>
+					<Route exact path="/team">
+						<Team />
 					</Route>
 					<Route path="/create">
 						<CreateBlog />
