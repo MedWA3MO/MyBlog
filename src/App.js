@@ -6,7 +6,8 @@ import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 // import { useState } from 'react';
 // import MyApp from './MyApp';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 
 function App() {
