@@ -3,7 +3,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar">
+		<nav className="navbar shadow mt-3 p-4">
 			<Link to='/'>
 				<h1>The Dojo Blog</h1>
 			</Link>

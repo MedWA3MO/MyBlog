@@ -1,5 +1,5 @@
 # To run the json server: 
-
+#updated readme done --
 npx json-server --watch data/db.json  --port 8000
 
 # Getting Started with Create React App
