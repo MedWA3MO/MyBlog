@@ -9,6 +9,7 @@ const Navbar = () => {
 			</Link>
 			<div className="links">
 				<Link to="/">Home</Link>
+				<Link to="/team">Team</Link>
 				<Link to="/create" style={{
 					backgroundColor: "blue",
 					color: "white",

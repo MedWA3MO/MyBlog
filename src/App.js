@@ -9,6 +9,8 @@ import NotFound from './NotFound';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
+import Team from "./Team.js"
+
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
 				<Switch>
 					<Route exact path="/">
 						<Home/>
+					</Route>
+					<Route exact path="/team">
+						<Team />
 					</Route>
 					<Route path="/create">
 						<CreateBlog />
